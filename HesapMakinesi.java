@@ -25,7 +25,6 @@ public class HesapMakinesi extends JFrame {
 	JTextField text;
 	JLabel label;
 
-
 	public void add(String str) {// sayi yazmayi saglar
 		text.setText(text.getText() + str);
 	}
@@ -51,12 +50,9 @@ public class HesapMakinesi extends JFrame {
 		}
 	}
 
-
 	public void start() {
 		frame = new JFrame("Hesap Makinesi");
-		
 		JOptionPane.showMessageDialog(frame, "Hesap Makinesine Hos Geldiniz");
-
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setBounds(100, 100, 400, 500);
 		frame.setLocationRelativeTo(null);
@@ -193,7 +189,6 @@ public class HesapMakinesi extends JFrame {
 				} catch (Exception e2) {
 					// TODO: handle exception
 				}
-
 			}
 		});
 		p.add(btnNewButton_7);
@@ -311,7 +306,6 @@ public class HesapMakinesi extends JFrame {
 				} catch (Exception e2) {
 					// TODO: handle exception
 				}
-
 			}
 		});
 		p.add(btnNewButton_15);
